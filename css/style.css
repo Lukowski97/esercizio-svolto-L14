@@ -11,6 +11,21 @@
 .spaced-container{
     padding: 70px 15px;
 }
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+input, textarea{
+    padding: 10px;
+    border-bottom: 2px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
 
 .btn-send{
     background-color: var(--verde-acqua);
